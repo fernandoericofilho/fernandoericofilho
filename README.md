@@ -2,7 +2,7 @@
 
 🚀 Backend Engineer especializado em Java, Spring Boot, Arquitetura de Software e IA Generativa.
 
-Atuo no desenvolvimento de aplicações backend, integrações distribuídas, APIs REST, mensageria e soluções utilizando RAG (Retrieval-Augmented Generation) e agentes de IA.
+Atuo no desenvolvimento de aplicações backend, integrações distribuídas, APIs REST, mensageria e soluções utilizando RAG (Retrieval-Augmented Generation), LLMs e arquiteturas multiagentes.
 
 Além da atuação técnica, também participo ativamente da formação de desenvolvedores dentro do ambiente corporativo, conduzindo mentorias, treinamentos técnicos e iniciativas de capacitação voltadas para engenharia de software, arquitetura backend e IA Generativa.
 
@@ -13,7 +13,14 @@ Atualmente estou conduzindo treinamentos corporativos sobre:
 - Multiagentes
 - Guardrails
 - Observabilidade para LLMs
+- Engenharia de Contexto
 - Arquitetura aplicada à IA Generativa
+
+Também sou responsável por iniciativas de formação e mentoria técnica para desenvolvedores iniciantes através da **Tech Starter Academy**, projeto gratuito voltado para capacitação prática e preparação para o mercado de tecnologia.
+
+📈 Na primeira turma da iniciativa, **3 desenvolvedores foram contratados após o treinamento**.
+
+🚀 Atualmente estamos conduzindo a segunda turma e acompanhando os demais alunos com mentorias, direcionamento técnico, preparação para entrevistas, evolução de portfólio e apoio contínuo para acelerar a entrada no mercado.
 
 ---
 
@@ -24,9 +31,13 @@ Atualmente estou conduzindo treinamentos corporativos sobre:
 - Microsserviços
 - Arquitetura de Software
 - Mensageria e Processamento Assíncrono
+- Sistemas Distribuídos
+- Event Driven Architecture
 - IA Generativa
 - RAG (Retrieval-Augmented Generation)
+- Engenharia de Contexto
 - Engenharia de Prompts
+- Observabilidade
 - Mentoria Técnica
 - Formação de Desenvolvedores
 - Treinamentos Corporativos
@@ -48,21 +59,72 @@ Atualmente estou conduzindo treinamentos corporativos sobre:
 ## Cloud & DevOps
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 
 ## Banco de Dados
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
+## Observabilidade
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+
 ## IA Generativa
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge)
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge)
 ![RAG](https://img.shields.io/badge/RAG-0A66C2?style=for-the-badge)
+![Spring AI](https://img.shields.io/badge/Spring_AI-6DB33F?style=for-the-badge)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge)
+
+---
+
+# 🏫 Tech Starter Academy
+
+Projeto gratuito voltado para formação de desenvolvedores iniciantes e preparação para o mercado de tecnologia.
+
+## 🚀 O que trabalhamos
+
+- Java
+- Spring Boot
+- APIs REST
+- Git e Gitflow
+- Banco de Dados
+- SQL e Normalização
+- Flyway
+- Docker
+- Kafka
+- Kubernetes
+- AWS
+- Splunk
+- Grafana
+- Prometheus
+- Arquitetura de Software
+- Entrevistas Técnicas
+- Soft Skills
+- Organização de GitHub e LinkedIn
+
+## 🎯 Objetivo
+
+Capacitar desenvolvedores com:
+- fundamentos sólidos
+- prática orientada ao mercado
+- projetos reais
+- comunicação técnica
+- preparação para entrevistas
+- postura profissional
+
+📚 As aulas acontecem todos os sábados.
+
+🔗 LinkedIn da iniciativa:
+https://www.linkedin.com/company/tech-starter-academy
 
 ---
 
 # 📌 Projetos em Destaque
 
 ## 🤖 springAiRag
+
 Treinamento corporativo sobre IA Generativa aplicada para desenvolvedores.
 
 Conteúdo envolvendo:
@@ -82,6 +144,7 @@ Projeto criado para capacitação técnica de desenvolvedores em IA Generativa d
 ---
 
 ## 👨‍🏫 turma2
+
 Projeto de formação técnica para novos desenvolvedores.
 
 Conteúdo abordando:
@@ -94,12 +157,16 @@ Conteúdo abordando:
 - HATEOAS
 - Arquitetura REST
 - Boas práticas de engenharia
+- Flyway
+- Testes
+- APIs REST
 
 Projeto colaborativo com múltiplos desenvolvedores.
 
 ---
 
 ## 🚀 junior-dev-starter
+
 Projeto criado para ajudar desenvolvedores iniciantes a se prepararem para entrevistas técnicas e entrada no mercado.
 
 Foco em:
@@ -109,13 +176,16 @@ Foco em:
 - LinkedIn
 - Entrevistas técnicas
 - Organização profissional
+- Roadmaps de estudo
+- Projetos práticos
 
 ---
 
 ## 📊 analysisreport
+
 Sistema de análise de arquivos utilizando Spring Batch.
 
-Features:
+### Features
 - Processamento de arquivos `.dat`
 - Parsing de registros
 - Geração de relatórios
@@ -125,8 +195,8 @@ Features:
 ---
 
 ## 📬 poc-email
-POC de microserviço para envio de emails utilizando:
 
+POC de microserviço para envio de emails utilizando:
 - Spring Mail
 - AWS SES
 - RabbitMQ
@@ -136,9 +206,10 @@ POC de microserviço para envio de emails utilizando:
 ---
 
 ## 🌍 trevally_challenge
+
 Desafio internacional para processamento de CSV com arquitetura em camadas.
 
-Recursos:
+### Recursos
 - Extração dinâmica de headers
 - Persistência em MongoDB
 - DTOs
@@ -146,6 +217,20 @@ Recursos:
 - Testes unitários
 - Docker
 - APIs REST
+
+---
+
+## 🔧 refactoring_interview
+
+Projeto focado em refatoração e melhoria de código utilizando boas práticas de engenharia de software.
+
+### Conceitos aplicados
+- Clean Code
+- Refatoração
+- SOLID
+- Enums
+- Organização de responsabilidades
+- Legibilidade e manutenibilidade
 
 ---
 
@@ -161,6 +246,8 @@ Também desenvolvo projetos voltados para:
 - Engenharia de software
 - Event Driven Architecture
 - Engenharia de Contexto para IA
+- Arquitetura Multiagente
+- Escalabilidade backend
 
 ---
 
@@ -180,16 +267,20 @@ Também desenvolvo projetos voltados para:
 - Engenharia de Contexto
 - Sistemas Distribuídos
 - Event Driven Architecture
+- Agentes autônomos
+- Engenharia de Plataforma para IA
 
 ---
 
 # 🤝 Objetivo
 
-Construir soluções escaláveis, compartilhar conhecimento e contribuir para a formação de desenvolvedores com fundamentos sólidos de engenharia de software e arquitetura moderna.
+Construir soluções escaláveis, compartilhar conhecimento e contribuir para a formação de desenvolvedores com fundamentos sólidos de engenharia de software, arquitetura moderna e IA aplicada.
 
 ---
 
 # 📫 Contato
 
 - GitHub: https://github.com/fernandoericofilho
-- LinkedIn: Adicione aqui seu LinkedIn
+- LinkedIn: https://www.linkedin.com/in/fernandoericofilho/
+- Tech Starter Academy:
+  https://www.linkedin.com/company/tech-starter-academy
