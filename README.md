@@ -123,6 +123,33 @@ https://www.linkedin.com/company/tech-starter-academy
 
 # 📌 Projetos em Destaque
 
+## Sobre o `base_project`
+
+O `base_project` é um template didático e reutilizável pensado para bootcamps, exercícios em sala e projetos iniciais. Ele oferece uma arquitetura mínima pronta, convenções e um conjunto de "agents" (personas e prompts) para apoiar revisões de código, QA e práticas de ensino.
+
+Principais características:
+
+- Projeto Kotlin + Spring Boot com fluxo completo (Controller → DTO → Mapper → Service → Repository).
+- Build com Gradle Wrapper (`./gradlew`) e script `bootstrap.sh` para execução rápida de testes e inicialização.
+- Migrations com Flyway em `src/main/resources/db/migration` (ex.: `V1__create_greeting_record.sql`).
+- Exemplo de persistência em H2 (pronto para trocar por PostgreSQL em ambientes reais).
+- Diretório `agents/` com vários agentes/personas prontos para uso em exercícios e PRs.
+
+Por que usar como template:
+
+- Reduz tempo de setup: já inclui dependências, build e exemplos de boas práticas.
+- Facilita padronização de exercícios e avaliações em turmas.
+- Permite adicionar checklists e prompts customizados para automação de revisões.
+
+Como começar rapidamente:
+
+```bash
+git clone <seu-repo>
+cd base_project
+./gradlew clean build       # compila e executa testes
+./bootstrap.sh --run        # executa testes e inicia a aplicação (opcional)
+```
+
 ## 🤖 springAiRag
 
 Treinamento corporativo sobre IA Generativa aplicada para desenvolvedores.
